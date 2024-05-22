@@ -73,6 +73,12 @@ variable "database_subnet_tags" {
 
     }
 }
+variable "database_subnet_group_tags" {
+    type = map 
+    default = {
+
+    }
+}
 #nat tags
 variable "nat_tags" {
     type = map 
@@ -100,4 +106,18 @@ variable "database_route_table_tags" {
     default = {
         
     }
+}
+
+#peering variables
+variable "is_peering_required" {
+    type = bool
+    default = false
+}
+variable "peer_vpc_id" {
+    type = string
+    default = ""
+}
+variable "peering_tags" {
+    type = map
+    default = {}
 }
