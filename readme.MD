@@ -50,6 +50,6 @@ This module is developed for joindevops.com. We are creating following resources
 * database_subnet_ids: A list of 2 database subnet IDS created.
 * private_subnet_ids: A list of 2 private subnet IDS created.
 * database_subnet_group_id: A database subnet group ID created.
-* igw_id: internte gateway created.
+* gw_id: internte gateway created.
 
 ![alt text](vpc_module_diagram_2_lyst1715839481379.jpeg)
