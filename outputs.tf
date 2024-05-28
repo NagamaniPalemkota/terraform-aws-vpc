@@ -22,6 +22,10 @@ output "database_subnet_group_id" {
     value = aws_db_subnet_group.db_group.id
 }
 
+output "database_subnet_group_name" {
+    value = aws_db_subnet_group.db_group.name
+}
+
 output "internet_gateway_id" {
     value = aws_internet_gateway.gw.id
 }
